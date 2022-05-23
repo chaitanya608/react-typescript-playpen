@@ -1,0 +1,44 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "dist/index.tsx",
+  "repository": "https://github.com/chaitanya608/react-typescript-playpen.git",
+  "author": "Chaitanya",
+  "license": "ISC",
+  "private": true,
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.4",
+    "@webpack-cli/generators": "^2.4.2",
+    "autoprefixer": "^10.4.7",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.52.0",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "workbox-webpack-plugin": "^6.5.3"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "start": "webpack serve"
+  }
+}

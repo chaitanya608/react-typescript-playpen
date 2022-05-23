@@ -1,0 +1,20 @@
+{
+  "name": "react-typescript-playpen",
+  "version": "1.0.0",
+  "description": "root of playpen project for react-typescript",
+  "main": "index.js",
+  "repository": "https://github.com/chaitanya608/react-typescript-playpen.git",
+  "author": "chaitanya-qapita <chaitanya.vuddanti@qapitacorp.com>",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
